@@ -3,7 +3,9 @@ import React from 'react'
 const Navbar = () => {
     return (
         <div>
-            <h1>Navbar here!</h1>
+            <nav className="navbar navbar-dark bg-primary">
+            <span className="navbar-brand mb-0 h1">GOOGLE BOOK SEARCH</span>
+            </nav>
         </div>
     )
 }

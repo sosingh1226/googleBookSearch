@@ -37,14 +37,15 @@ class SearchPage extends Component {
 	render() {
 		return (
 			<div>
-				<h1>Google React Book Search</h1>
+				<p></p>
 				<Searchform
 					handleInputChange={this.handleInputChange}
 					query={this.state.query}
 					handleFormSubmit={this.handleFormSubmit}
 				/>
 				{/* <Results books={this.state.books} /> */}
-				<h2>Search Results:</h2>
+				<p></p>
+				<h3>Search Results:</h3>
 				{this.state.books ? (
 					this.state.books.map((book) => (
 						<Card

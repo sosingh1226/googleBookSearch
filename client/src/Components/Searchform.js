@@ -4,6 +4,7 @@ const Searchform = (props) => {
   return (
     <div>
       <label htmlFor="">Search Your Book Here</label>
+      <p></p>
       <input
           type="text"
           className="form-control"
@@ -13,6 +14,7 @@ const Searchform = (props) => {
           name="query"
           value={props.query}
         />
+        <p></p>
     <button type="submit" className="btn btn-primary" onClick={props.handleFormSubmit}>
         Search
     </button> 
